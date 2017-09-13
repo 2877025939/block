@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		270034F91F68C4B90045A97D /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = 270034F81F68C4B90045A97D /* test.m */; };
 		27FC0DEB1F4E9CBC004BC46A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FC0DEA1F4E9CBC004BC46A /* main.m */; };
 		27FC0DEE1F4E9CBC004BC46A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FC0DED1F4E9CBC004BC46A /* AppDelegate.m */; };
 		27FC0DF11F4E9CBC004BC46A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FC0DF01F4E9CBC004BC46A /* ViewController.m */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		270034F71F68C4B90045A97D /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		270034F81F68C4B90045A97D /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
 		27FC0DE61F4E9CBC004BC46A /* Block终极.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Block终极.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27FC0DEA1F4E9CBC004BC46A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		27FC0DEC1F4E9CBC004BC46A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -111,6 +114,8 @@
 				27FC0DED1F4E9CBC004BC46A /* AppDelegate.m */,
 				27FC0DEF1F4E9CBC004BC46A /* ViewController.h */,
 				27FC0DF01F4E9CBC004BC46A /* ViewController.m */,
+				270034F71F68C4B90045A97D /* test.h */,
+				270034F81F68C4B90045A97D /* test.m */,
 				27FC0E1C1F4E9CCC004BC46A /* ViewController1.h */,
 				27FC0E1D1F4E9CCC004BC46A /* ViewController1.m */,
 				27FC0E1F1F4E9CDB004BC46A /* Person.h */,
@@ -291,6 +296,7 @@
 				27FC0E211F4E9CDB004BC46A /* Person.m in Sources */,
 				27FC0DEE1F4E9CBC004BC46A /* AppDelegate.m in Sources */,
 				27FC0DEB1F4E9CBC004BC46A /* main.m in Sources */,
+				270034F91F68C4B90045A97D /* test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,6 +536,7 @@
 				27FC0E151F4E9CBC004BC46A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27FC0E161F4E9CBC004BC46A /* Build configuration list for PBXNativeTarget "Block终极Tests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +545,7 @@
 				27FC0E181F4E9CBC004BC46A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27FC0E191F4E9CBC004BC46A /* Build configuration list for PBXNativeTarget "Block终极UITests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +554,7 @@
 				27FC0E1B1F4E9CBC004BC46A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
