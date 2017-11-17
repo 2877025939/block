@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27C897851FBEA4DB0077315A /* UIViewController+Example.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C897841FBEA4DB0077315A /* UIViewController+Example.m */; };
 		27FC0DEB1F4E9CBC004BC46A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FC0DEA1F4E9CBC004BC46A /* main.m */; };
 		27FC0DEE1F4E9CBC004BC46A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FC0DED1F4E9CBC004BC46A /* AppDelegate.m */; };
 		27FC0DF11F4E9CBC004BC46A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27FC0DF01F4E9CBC004BC46A /* ViewController.m */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27C897831FBEA4DB0077315A /* UIViewController+Example.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Example.h"; sourceTree = "<group>"; };
+		27C897841FBEA4DB0077315A /* UIViewController+Example.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Example.m"; sourceTree = "<group>"; };
 		27FC0DE61F4E9CBC004BC46A /* Block终极.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Block终极.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27FC0DEA1F4E9CBC004BC46A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		27FC0DEC1F4E9CBC004BC46A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -107,6 +110,8 @@
 		27FC0DE81F4E9CBC004BC46A /* Block终极 */ = {
 			isa = PBXGroup;
 			children = (
+				27C897831FBEA4DB0077315A /* UIViewController+Example.h */,
+				27C897841FBEA4DB0077315A /* UIViewController+Example.m */,
 				27FC0DEC1F4E9CBC004BC46A /* AppDelegate.h */,
 				27FC0DED1F4E9CBC004BC46A /* AppDelegate.m */,
 				27FC0DEF1F4E9CBC004BC46A /* ViewController.h */,
@@ -217,8 +222,7 @@
 				TargetAttributes = {
 					27FC0DE51F4E9CBC004BC46A = {
 						CreatedOnToolsVersion = 8.3.1;
-						DevelopmentTeam = HWQF636ATC;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					27FC0DFE1F4E9CBC004BC46A = {
 						CreatedOnToolsVersion = 8.3.1;
@@ -289,6 +293,7 @@
 				27FC0E1E1F4E9CCC004BC46A /* ViewController1.m in Sources */,
 				27FC0DF11F4E9CBC004BC46A /* ViewController.m in Sources */,
 				27FC0E211F4E9CDB004BC46A /* Person.m in Sources */,
+				27C897851FBEA4DB0077315A /* UIViewController+Example.m in Sources */,
 				27FC0DEE1F4E9CBC004BC46A /* AppDelegate.m in Sources */,
 				27FC0DEB1F4E9CBC004BC46A /* main.m in Sources */,
 			);
@@ -441,11 +446,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = HWQF636ATC;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Block终极/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Plan.Block--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -453,11 +460,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = HWQF636ATC;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Block终极/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Plan.Block--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};

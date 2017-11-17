@@ -153,7 +153,7 @@ typedef void (^MyBlock)(NSString *myBlockStr);
     
         vc.myBlock = ^(NSString *str) {
             NSLog(@"%@",str);
-            NSLog(@"%@",self.str);
+            //NSLog(@"%@",self.str);
             NSLog(@"%@",self.str = str);
     
         };
@@ -227,17 +227,17 @@ typedef void (^MyBlock)(NSString *myBlockStr);
     //3. block的反向传值
     [self usingBlockReverseTheValue];
     
-    
-    // 4. block在方法中的使用
-    //只能在方法内部进行调用，用于回调和传值等
-    //我觉得是这个block是在方法中 不属于对象的属性 并没有被对象持有 所以并不会引起循环引用
-    [self.person testBlock:^(NSString *str) {
-        
-        NSLog(@"%@",str);
-        NSLog(@"%@",self.str);
-        NSLog(@"%@",self.str = str);
-        NSLog(@"%@",self.person.personStr);
-    }];
+//
+//    // 4. block在方法中的使用
+//    //只能在方法内部进行调用，用于回调和传值等
+//    //我觉得是这个block是在方法中 不属于对象的属性 并没有被对象持有 所以并不会引起循环引用
+//    [self.person testBlock:^(NSString *str) {
+//
+//        NSLog(@"%@",str);
+//        NSLog(@"%@",self.str);
+//        NSLog(@"%@",self.str = str);
+//        NSLog(@"%@",self.person.personStr);
+//    }];
     
 }
 
