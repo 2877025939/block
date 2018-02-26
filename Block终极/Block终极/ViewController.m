@@ -15,7 +15,7 @@ typedef void (^MyBlock)(NSString *myBlockStr);
 @property (nonatomic,strong)MyBlock myBlock;
 
 
-@property(nonatomic,strong)NSString *str;
+@property (nonatomic,copy)NSString *str;
 @property (nonatomic,strong)Person *person;
 @end
 

@@ -11,6 +11,5 @@ typedef  void(^MyBlock)(NSString *str);
 
 @interface ViewController1 : UIViewController
 @property (nonatomic,copy) MyBlock myBlock;
-
-@property (nonatomic,strong)NSString *VC1Str;
+@property (nonatomic,copy)NSString *VC1Str;
 @end

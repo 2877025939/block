@@ -8,12 +8,11 @@
 
 #import <Foundation/Foundation.h>
 typedef void (^Block) (NSString * str);
-
 typedef void (^MyBlock)(NSString * str);
-@interface Person : NSObject
 
+@interface Person : NSObject
 @property(nonatomic,strong)MyBlock myBlock;
-@property(nonatomic,strong)NSString *personStr ;
+@property(nonatomic,copy)NSString *personStr ;
 
 -(void)testBlock:(Block)myBlock;
 
